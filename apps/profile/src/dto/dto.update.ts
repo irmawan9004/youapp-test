@@ -46,7 +46,8 @@ enum Horoscope {
 
 export class UpdateProfileDto {
   @IsString()
-  _id: string;
+  @IsOptional()
+  _id?: string;
 
   @IsString()
   @IsOptional()
