@@ -1,0 +1,34 @@
+# Ignore files and directories commonly used in development
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore build artifacts
+dist
+build
+
+# Ignore environment-specific files
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore version control files
+.git
+.gitignore
+.dockerignore
+.estlintrc.js
+.prettierrc
+
+# Ignore editor-specific files
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Ignore miscellaneous files
+.DS_Store
+Thumbs.db
